@@ -1,0 +1,1189 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.12.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_43615</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>23</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_43615</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>23</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|6UAN|B</Hit_id>
+  <Hit_def>B-Raf:14-3-3 complex [Homo sapiens] &gt;pdb|6UAN|C B-Raf:14-3-3 complex [Homo sapiens]</Hit_def>
+  <Hit_accession>6UAN_B</Hit_accession>
+  <Hit_len>768</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>6.2767e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>600</Hsp_hit-from>
+      <Hsp_hit-to>622</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|6Q0K|A</Hit_id>
+  <Hit_def>Structure of a MAPK pathway complex [Homo sapiens] &gt;pdb|6Q0K|B Structure of a MAPK pathway complex [Homo sapiens]</Hit_def>
+  <Hit_accession>6Q0K_A</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.7137e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>647</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|6Q0J|A</Hit_id>
+  <Hit_def>Structure of a MAPK pathway complex [Homo sapiens] &gt;pdb|6Q0J|B Structure of a MAPK pathway complex [Homo sapiens] &gt;pdb|6Q0T|A Structure of a MAPK pathway complex [Homo sapiens] &gt;pdb|6Q0T|B Structure of a MAPK pathway complex [Homo sapiens]</Hit_def>
+  <Hit_accession>6Q0J_A</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.7137e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>647</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|6NYB|A</Hit_id>
+  <Hit_def>Structure of a MAPK pathway complex [Homo sapiens]</Hit_def>
+  <Hit_accession>6NYB_A</Hit_accession>
+  <Hit_len>805</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>6.77963e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>625</Hsp_hit-from>
+      <Hsp_hit-to>647</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1UWH|A</Hit_id>
+  <Hit_def>The complex of wild type B-RAF and BAY439006. [Homo sapiens] &gt;pdb|1UWH|B The complex of wild type B-RAF and BAY439006. [Homo sapiens]</Hit_def>
+  <Hit_accession>1UWH_A</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.05829e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6U2H|C</Hit_id>
+  <Hit_def>BRAF dimer bound to 14-3-3 [Homo sapiens] &gt;pdb|6U2H|D BRAF dimer bound to 14-3-3 [Homo sapiens] &gt;pdb|6XAG|C Apo BRAF dimer bound to 14-3-3 [Homo sapiens] &gt;pdb|6XAG|D Apo BRAF dimer bound to 14-3-3 [Homo sapiens]</Hit_def>
+  <Hit_accession>6U2H_C</Hit_accession>
+  <Hit_len>290</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.29773e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|4H58|A</Hit_id>
+  <Hit_def>BRAF in complex with compound 3 [Homo sapiens] &gt;pdb|4H58|B BRAF in complex with compound 3 [Homo sapiens] &gt;pdb|4H58|C BRAF in complex with compound 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>4H58_A</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.31175e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|5CSW|A</Hit_id>
+  <Hit_def>B-RAF in complex with Dabrafenib [Homo sapiens] &gt;pdb|5CSW|B B-RAF in complex with Dabrafenib [Homo sapiens] &gt;pdb|5CSX|A CRYSTAL STRUCTURE OF B-RAF IN COMPLEX WITH BI 882370 [Homo sapiens]</Hit_def>
+  <Hit_accession>5CSW_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.35481e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>157</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|4JVG|A</Hit_id>
+  <Hit_def>B-Raf Kinase in Complex with Birb796 [Homo sapiens] &gt;pdb|4JVG|B B-Raf Kinase in Complex with Birb796 [Homo sapiens] &gt;pdb|4JVG|C B-Raf Kinase in Complex with Birb796 [Homo sapiens] &gt;pdb|4JVG|D B-Raf Kinase in Complex with Birb796 [Homo sapiens] &gt;pdb|6CAD|A Crystal structure of RAF kinase domain bound to the inhibitor 2a [Homo sapiens] &gt;pdb|6CAD|B Crystal structure of RAF kinase domain bound to the inhibitor 2a [Homo sapiens] &gt;pdb|6NSQ|A Crystal structure of BRAF kinase domain bound to the inhibitor 2l [Homo sapiens] &gt;pdb|6NSQ|B Crystal structure of BRAF kinase domain bound to the inhibitor 2l [Homo sapiens] &gt;pdb|6UUO|A Crystal structure of BRAF kinase domain bound to the PROTAC P4B [Homo sapiens] &gt;pdb|6UUO|B Crystal structure of BRAF kinase domain bound to the PROTAC P4B [Homo sapiens]</Hit_def>
+  <Hit_accession>4JVG_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.38949e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>159</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|3C4C|A</Hit_id>
+  <Hit_def>B-Raf Kinase in Complex with PLX4720 [Homo sapiens] &gt;pdb|3C4C|B B-Raf Kinase in Complex with PLX4720 [Homo sapiens]</Hit_def>
+  <Hit_accession>3C4C_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.4114e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|4YHT|A</Hit_id>
+  <Hit_def>bRaf complexed with an inhibitor [Homo sapiens] &gt;pdb|4YHT|B bRaf complexed with an inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>4YHT_A</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.43236e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|6N0P|A</Hit_id>
+  <Hit_def>BRAF in complex with N-(3-(2-(2-hydroxyethoxy)-6-morpholinopyridin-4-yl)-4-methylphenyl)-2-(trifluoromethyl)isonicotinamide (LXH254) [Homo sapiens] &gt;pdb|6N0P|B BRAF in complex with N-(3-(2-(2-hydroxyethoxy)-6-morpholinopyridin-4-yl)-4-methylphenyl)-2-(trifluoromethyl)isonicotinamide (LXH254) [Homo sapiens]</Hit_def>
+  <Hit_accession>6N0P_A</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.45501e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|4RZV|A</Hit_id>
+  <Hit_def>Crystal structure of the BRAF (R509H) kinase domain monomer bound to Vemurafenib [Homo sapiens] &gt;pdb|4RZV|B Crystal structure of the BRAF (R509H) kinase domain monomer bound to Vemurafenib [Homo sapiens] &gt;pdb|4RZW|A Crystal structure of BRAF (R509H) kinase domain bound to AZ628 [Homo sapiens] &gt;pdb|4RZW|B Crystal structure of BRAF (R509H) kinase domain bound to AZ628 [Homo sapiens]</Hit_def>
+  <Hit_accession>4RZV_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.715e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|2FB8|A</Hit_id>
+  <Hit_def>Structure of the B-Raf kinase domain bound to SB-590885 [Homo sapiens] &gt;pdb|2FB8|B Structure of the B-Raf kinase domain bound to SB-590885 [Homo sapiens] &gt;pdb|5CT7|A BRAF in Complex with RAF265 [Homo sapiens] &gt;pdb|5CT7|B BRAF in Complex with RAF265 [Homo sapiens] &gt;pdb|5VAL|A BRAF in Complex with N-(3-(tert-butyl)phenyl)-4-methyl-3-(6-morpholinopyrimidin-4-yl)benzamide [Homo sapiens] &gt;pdb|5VAL|B BRAF in Complex with N-(3-(tert-butyl)phenyl)-4-methyl-3-(6-morpholinopyrimidin-4-yl)benzamide [Homo sapiens] &gt;pdb|5VAM|A BRAF in Complex with RAF709 [Homo sapiens] &gt;pdb|5VAM|B BRAF in Complex with RAF709 [Homo sapiens] &gt;pdb|6B8U|A Crystals Structure of B-Raf kinase domain in complex with an Imidazopyridinyl benzamide inhibitor [Homo sapiens] &gt;pdb|6B8U|B Crystals Structure of B-Raf kinase domain in complex with an Imidazopyridinyl benzamide inhibitor [Homo sapiens] &gt;pdb|6N0Q|A BRAF in complex with N-(4-methyl-3-(1-methyl-2-oxo-2,3-dihydro-1H-benzo[d]imidazol-5-yl)phenyl)-3-(trifluoromethyl)benzamide. [Homo sapiens] &gt;pdb|6N0Q|B BRAF in complex with N-(4-methyl-3-(1-methyl-2-oxo-2,3-dihydro-1H-benzo[d]imidazol-5-yl)phenyl)-3-(trifluoromethyl)benzamide. [Homo sapiens]</Hit_def>
+  <Hit_accession>2FB8_A</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>9.81191e-10</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|3Q96|A</Hit_id>
+  <Hit_def>B-Raf kinase domain in complex with a tetrahydronaphthalene inhibitor [Homo sapiens] &gt;pdb|3Q96|B B-Raf kinase domain in complex with a tetrahydronaphthalene inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>3Q96_A</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.01276e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|6PP9|A</Hit_id>
+  <Hit_def>Crystal structure of BRAF:MEK1 complex [Homo sapiens] &gt;pdb|6V2U|A Crystal structure of the insect cell-expressed WT-BRAF kinase in complex with Dabrafenib [Homo sapiens] &gt;pdb|6V2U|B Crystal structure of the insect cell-expressed WT-BRAF kinase in complex with Dabrafenib [Homo sapiens] &gt;pdb|6V2W|A Crystal structure of the BRAF:MEK1 kinases in complex with AMPPNP [Homo sapiens] &gt;pdb|7M0T|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0U|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0V|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0W|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0X|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0Y|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7M0Z|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens]</Hit_def>
+  <Hit_accession>6PP9_A</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.01464e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|4DBN|A</Hit_id>
+  <Hit_def>Crystal Structure of the Kinase domain of Human B-raf with a [1,3]thiazolo[5,4-b]pyridine derivative [Homo sapiens] &gt;pdb|4DBN|B Crystal Structure of the Kinase domain of Human B-raf with a [1,3]thiazolo[5,4-b]pyridine derivative [Homo sapiens] &gt;pdb|4FC0|A Crystal Structure of Human Kinase Domain of B-raf with a DFG-out Inhibitor [Homo sapiens] &gt;pdb|4FC0|B Crystal Structure of Human Kinase Domain of B-raf with a DFG-out Inhibitor [Homo sapiens] &gt;pdb|4KSP|A Crystal Structure of Human B-raf bound to a DFG-out Inhibitor TAK-632 [Homo sapiens] &gt;pdb|4KSP|B Crystal Structure of Human B-raf bound to a DFG-out Inhibitor TAK-632 [Homo sapiens] &gt;pdb|4KSQ|A Crystal Structure of Human B-raf bound to a DFG-out Inhibitor 5B [Homo sapiens] &gt;pdb|4KSQ|B Crystal Structure of Human B-raf bound to a DFG-out Inhibitor 5B [Homo sapiens]</Hit_def>
+  <Hit_accession>4DBN_A</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.01646e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>156</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4MBJ|A</Hit_id>
+  <Hit_def>Human B-Raf Kinase Domain in Complex with an Imidazopyridine-based Inhibitor [Homo sapiens] &gt;pdb|4MBJ|B Human B-Raf Kinase Domain in Complex with an Imidazopyridine-based Inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>4MBJ_A</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.03408e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|3II5|A</Hit_id>
+  <Hit_def>The Complex of wild-type B-RAF with Pyrazolo pyrimidine inhibitor [Homo sapiens] &gt;pdb|3II5|B The Complex of wild-type B-RAF with Pyrazolo pyrimidine inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>3II5_A</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.04631e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|4MNE|B</Hit_id>
+  <Hit_def>Crystal structure of the BRAF:MEK1 complex [Homo sapiens] &gt;pdb|4MNE|C Crystal structure of the BRAF:MEK1 complex [Homo sapiens] &gt;pdb|4MNE|F Crystal structure of the BRAF:MEK1 complex [Homo sapiens] &gt;pdb|4MNE|G Crystal structure of the BRAF:MEK1 complex [Homo sapiens]</Hit_def>
+  <Hit_accession>4MNE_B</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.04818e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|5FD2|A</Hit_id>
+  <Hit_def>B-Raf wild-type kinase domain in complex with a purinylpyridinylamino-based inhibitor [Homo sapiens] &gt;pdb|5FD2|B B-Raf wild-type kinase domain in complex with a purinylpyridinylamino-based inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>5FD2_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.05027e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|3D4Q|A</Hit_id>
+  <Hit_def>Pyrazole-based inhibitors of B-Raf kinase [Homo sapiens] &gt;pdb|3D4Q|B Pyrazole-based inhibitors of B-Raf kinase [Homo sapiens] &gt;pdb|3PPJ|A Human B-Raf Kinase in Complex with a Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PPJ|B Human B-Raf Kinase in Complex with a Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PPK|A Human B-Raf Kinase in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PPK|B Human B-Raf Kinase in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PRF|A Crystal Structure of Human B-Raf Kinase Domain in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PRF|B Crystal Structure of Human B-Raf Kinase Domain in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PRI|A Crystal Structure of Human B-Raf Kinase in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PRI|B Crystal Structure of Human B-Raf Kinase in Complex with a Non-Oxime Furopyridine Inhibitor [Homo sapiens] &gt;pdb|3PSB|A Furo[2,3-c]pyridine-based Indanone Oximes as Potent and Selective B-Raf Inhibitors [Homo sapiens] &gt;pdb|3PSB|B Furo[2,3-c]pyridine-based Indanone Oximes as Potent and Selective B-Raf Inhibitors [Homo sapiens] &gt;pdb|3PSD|A Non-oxime pyrazole based inhibitors of B-Raf kinase [Homo sapiens] &gt;pdb|3PSD|B Non-oxime pyrazole based inhibitors of B-Raf kinase [Homo sapiens] &gt;pdb|3Q4C|A Crystal Structure of Wild Type BRAF kinase domain in complex with organometallic inhibitor CNS292 [Homo sapiens] &gt;pdb|3Q4C|B Crystal Structure of Wild Type BRAF kinase domain in complex with organometallic inhibitor CNS292 [Homo sapiens] &gt;pdb|3SKC|A Human B-Raf Kinase in Complex with an Amide Linked Pyrazolopyridine Inhibitor [Homo sapiens] &gt;pdb|3SKC|B Human B-Raf Kinase in Complex with an Amide Linked Pyrazolopyridine Inhibitor [Homo sapiens] &gt;pdb|3TV4|A Human B-Raf Kinase Domain in Complex with an Bromopyridine Benzamide Inhibitor [Homo sapiens] &gt;pdb|3TV4|B Human B-Raf Kinase Domain in Complex with an Bromopyridine Benzamide Inhibitor [Homo sapiens] &gt;pdb|3TV6|A Human B-Raf Kinase Domain in Complex with a Methoxypyrazolopyridinyl Benzamide Inhibitor [Homo sapiens] &gt;pdb|3TV6|B Human B-Raf Kinase Domain in Complex with a Methoxypyrazolopyridinyl Benzamide Inhibitor [Homo sapiens] &gt;pdb|4E26|A BRAF in complex with an organic inhibitor 7898734 [Homo sapiens] &gt;pdb|4E26|B BRAF in complex with an organic inhibitor 7898734 [Homo sapiens] &gt;pdb|4E4X|A Crystal Structure of B-Raf Kinase Domain in Complex with a Dihydropyrido[2,3-d]pyrimidinone-based Inhibitor [Homo sapiens] &gt;pdb|4E4X|B Crystal Structure of B-Raf Kinase Domain in Complex with a Dihydropyrido[2,3-d]pyrimidinone-based Inhibitor [Homo sapiens] &gt;pdb|4EHE|A B-Raf Kinase Domain in Complex with an Aminothienopyrimidine-based Inhibitor [Homo sapiens] &gt;pdb|4EHE|B B-Raf Kinase Domain in Complex with an Aminothienopyrimidine-based Inhibitor [Homo sapiens] &gt;pdb|4G9C|A Human B-Raf Kinase Domain bound to a Type II Pyrazolopyridine Inhibitor [Homo sapiens] &gt;pdb|4G9C|B Human B-Raf Kinase Domain bound to a Type II Pyrazolopyridine Inhibitor [Homo sapiens] &gt;pdb|4PP7|A Highly Potent and Selective 3-N-methylquinazoline-4(3H)-one Based Inhibitors of B-RafV600E Kinase [Homo sapiens] &gt;pdb|4PP7|B Highly Potent and Selective 3-N-methylquinazoline-4(3H)-one Based Inhibitors of B-RafV600E Kinase [Homo sapiens] &gt;pdb|6U2G|B BRAF-MEK complex with AMP-PCP bound to BRAF [Homo sapiens]</Hit_def>
+  <Hit_accession>3D4Q_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.05763e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|6XFP|A</Hit_id>
+  <Hit_def>Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|6XLO|A Chain A, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|6XLO|B Chain B, Serine/threonine-protein kinase B-raf [Homo sapiens] &gt;pdb|7K0V|A Chain A, Non-specific serine/threonine protein kinase [Homo sapiens] &gt;pdb|7K0V|B Chain B, Non-specific serine/threonine protein kinase [Homo sapiens] &gt;pdb|7K0V|C Chain C, Non-specific serine/threonine protein kinase [Homo sapiens] &gt;pdb|7K0V|D Chain D, Non-specific serine/threonine protein kinase [Homo sapiens]</Hit_def>
+  <Hit_accession>6XFP_A</Hit_accession>
+  <Hit_len>288</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.06467e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>163</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|4XV9|A</Hit_id>
+  <Hit_def>B-Raf Kinase domain in complex with PLX5568 [Homo sapiens]</Hit_def>
+  <Hit_accession>4XV9_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.08168e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|5HIE|A</Hit_id>
+  <Hit_def>BRAF Kinase domain b3aC loop deletion mutant in complex with dabrafenib [Homo sapiens] &gt;pdb|5HIE|B BRAF Kinase domain b3aC loop deletion mutant in complex with dabrafenib [Homo sapiens] &gt;pdb|5HIE|C BRAF Kinase domain b3aC loop deletion mutant in complex with dabrafenib [Homo sapiens] &gt;pdb|5HIE|D BRAF Kinase domain b3aC loop deletion mutant in complex with dabrafenib [Homo sapiens]</Hit_def>
+  <Hit_accession>5HIE_A</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.15023e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|4WO5|A</Hit_id>
+  <Hit_def>Crystal structure of a BRAF kinase domain monomer [Homo sapiens] &gt;pdb|4WO5|B Crystal structure of a BRAF kinase domain monomer [Homo sapiens]</Hit_def>
+  <Hit_accession>4WO5_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.15919e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>175</Hsp_hit-from>
+      <Hsp_hit-to>197</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|5ITA|A</Hit_id>
+  <Hit_def>Crystal Structure of BRAF Kinase Domain Bound to AZ-VEM [Homo sapiens] &gt;pdb|5ITA|B Crystal Structure of BRAF Kinase Domain Bound to AZ-VEM [Homo sapiens]</Hit_def>
+  <Hit_accession>5ITA_A</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.17827e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|5HI2|A</Hit_id>
+  <Hit_def>BRAF Kinase domain b3aC loop deletion mutant in complex with sorafenib [Homo sapiens] &gt;pdb|5HID|A BRAF Kinase domain b3aC loop deletion mutant in complex with AZ628 [Homo sapiens] &gt;pdb|5HID|B BRAF Kinase domain b3aC loop deletion mutant in complex with AZ628 [Homo sapiens]</Hit_def>
+  <Hit_accession>5HI2_A</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>1.1891e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|3OG7|A</Hit_id>
+  <Hit_def>B-Raf Kinase V600E oncogenic mutant in complex with PLX4032 [Homo sapiens] &gt;pdb|3OG7|B B-Raf Kinase V600E oncogenic mutant in complex with PLX4032 [Homo sapiens]</Hit_def>
+  <Hit_accession>3OG7_A</Hit_accession>
+  <Hit_len>289</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.84608e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|4CQE|A</Hit_id>
+  <Hit_def>B-Raf Kinase V600E mutant in complex with a diarylthiazole B-Raf Inhibitor [Homo sapiens] &gt;pdb|4CQE|B B-Raf Kinase V600E mutant in complex with a diarylthiazole B-Raf Inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>4CQE_A</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.90032e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|4MNF|A</Hit_id>
+  <Hit_def>Crystal structure of BRAF-V600E bound to GDC0879 [Homo sapiens] &gt;pdb|4MNF|B Crystal structure of BRAF-V600E bound to GDC0879 [Homo sapiens]</Hit_def>
+  <Hit_accession>4MNF_A</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.521</Hsp_bit-score>
+      <Hsp_score>114</Hsp_score>
+      <Hsp_evalue>7.9212e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|6V34|A</Hit_id>
+  <Hit_def>Crystal structure of BRAF V600E oncogenic mutant in complex with TAK-580 [Homo sapiens] &gt;pdb|6V34|B Crystal structure of BRAF V600E oncogenic mutant in complex with TAK-580 [Homo sapiens]</Hit_def>
+  <Hit_accession>6V34_A</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.27153e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>158</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1UWJ|A</Hit_id>
+  <Hit_def>The complex of mutant V599E B-RAF and BAY439006. [Homo sapiens] &gt;pdb|1UWJ|B The complex of mutant V599E B-RAF and BAY439006. [Homo sapiens]</Hit_def>
+  <Hit_accession>1UWJ_A</Hit_accession>
+  <Hit_len>276</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.3599e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3IDP|A</Hit_id>
+  <Hit_def>B-Raf V600E kinase domain in complex with an aminoisoquinoline inhibitor [Homo sapiens] &gt;pdb|3IDP|B B-Raf V600E kinase domain in complex with an aminoisoquinoline inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>3IDP_A</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.48017e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|4XV1|A</Hit_id>
+  <Hit_def>B-Raf Kinase V600E oncogenic mutant in complex with PLX7904 [Homo sapiens] &gt;pdb|4XV1|B B-Raf Kinase V600E oncogenic mutant in complex with PLX7904 [Homo sapiens] &gt;pdb|4XV2|A B-Raf Kinase V600E oncogenic mutant in complex with Dabrafenib [Homo sapiens] &gt;pdb|4XV2|B B-Raf Kinase V600E oncogenic mutant in complex with Dabrafenib [Homo sapiens] &gt;pdb|4XV3|A B-Raf Kinase V600E oncogenic mutant in complex with PLX7922 [Homo sapiens] &gt;pdb|4XV3|B B-Raf Kinase V600E oncogenic mutant in complex with PLX7922 [Homo sapiens]</Hit_def>
+  <Hit_accession>4XV1_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.51331e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|6P3D|A</Hit_id>
+  <Hit_def>The co-crystal structure of BRAF(V600E) with ponatinib [Homo sapiens] &gt;pdb|6P7G|A The co-crystal structure of BRAF(V600E) with PHI1 [Homo sapiens] &gt;pdb|6P7G|B The co-crystal structure of BRAF(V600E) with PHI1 [Homo sapiens] &gt;pdb|6P7G|C The co-crystal structure of BRAF(V600E) with PHI1 [Homo sapiens] &gt;pdb|6P7G|D The co-crystal structure of BRAF(V600E) with PHI1 [Homo sapiens]</Hit_def>
+  <Hit_accession>6P3D_A</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.54673e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>172</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|4EHG|A</Hit_id>
+  <Hit_def>B-Raf Kinase Domain in Complex with an Aminopyridimine-based Inhibitor [Homo sapiens] &gt;pdb|4EHG|B B-Raf Kinase Domain in Complex with an Aminopyridimine-based Inhibitor [Homo sapiens] &gt;pdb|4G9R|A B-Raf V600E Kinase Domain Bound to a Type II Dihydroquinazoline Inhibitor [Homo sapiens] &gt;pdb|4G9R|B B-Raf V600E Kinase Domain Bound to a Type II Dihydroquinazoline Inhibitor [Homo sapiens] &gt;pdb|5C9C|A Crystal Structure Of Braf(v600e) In Complex With Ly3009120 Compnd [Homo sapiens] &gt;pdb|5C9C|B Crystal Structure Of Braf(v600e) In Complex With Ly3009120 Compnd [Homo sapiens]</Hit_def>
+  <Hit_accession>4EHG_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.59712e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|5JRQ|A</Hit_id>
+  <Hit_def>BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-6-VEM [Homo sapiens] &gt;pdb|5JRQ|B BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-6-VEM [Homo sapiens] &gt;pdb|5JSM|A BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-3-VEM [Homo sapiens] &gt;pdb|5JSM|B BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-3-VEM [Homo sapiens] &gt;pdb|5JSM|C BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-3-VEM [Homo sapiens] &gt;pdb|5JSM|D BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-3-VEM [Homo sapiens] &gt;pdb|5JT2|A BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-BISAMIDE [Homo sapiens] &gt;pdb|5JT2|B BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-BISAMIDE [Homo sapiens] &gt;pdb|5JT2|C BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-BISAMIDE [Homo sapiens] &gt;pdb|5JT2|D BRAFV600E Kinase Domain In Complex with Chemically Linked Vemurafenib Inhibitor VEM-BISAMIDE [Homo sapiens]</Hit_def>
+  <Hit_accession>5JRQ_A</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.65871e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>155</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|4FK3|A</Hit_id>
+  <Hit_def>B-Raf Kinase V600E Oncogenic Mutant in Complex with PLX3203 [Homo sapiens] &gt;pdb|4FK3|B B-Raf Kinase V600E Oncogenic Mutant in Complex with PLX3203 [Homo sapiens] &gt;pdb|4R5Y|A The complex structure of Braf V600E kinase domain with a novel Braf inhibitor [Homo sapiens] &gt;pdb|4R5Y|B The complex structure of Braf V600E kinase domain with a novel Braf inhibitor [Homo sapiens]</Hit_def>
+  <Hit_accession>4FK3_A</Hit_accession>
+  <Hit_len>292</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>8.76876e-09</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>189</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>22</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATEKSRWSGSHQFEQLSGSILWM</Hsp_hseq>
+      <Hsp_midline>AT KSRWSGSHQFEQLSGSILWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|3OMV|A</Hit_id>
+  <Hit_def>Crystal structure of c-raf (raf-1) [Homo sapiens] &gt;pdb|3OMV|B Crystal structure of c-raf (raf-1) [Homo sapiens]</Hit_def>
+  <Hit_accession>3OMV_A</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>2.46512e-06</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>23</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>23</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGSILWM</Hsp_qseq>
+      <Hsp_hseq>ATVKSRWSGSQQVEQPTGSVLWM</Hsp_hseq>
+      <Hsp_midline>ATVKSRWSGS Q EQ +GS+LWM</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|1XL3|C</Hit_id>
+  <Hit_def>Complex structure of Y.pestis virulence Factors YopN and TyeA [Yersinia pestis] &gt;pdb|1XL3|D Complex structure of Y.pestis virulence Factors YopN and TyeA [Yersinia pestis]</Hit_def>
+  <Hit_accession>1XL3_C</Hit_accession>
+  <Hit_len>92</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>22.7126</Hsp_bit-score>
+      <Hsp_score>47</Hsp_score>
+      <Hsp_evalue>8.47869</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>19</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>32</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>8</Hsp_identity>
+      <Hsp_positive>11</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>19</Hsp_align-len>
+      <Hsp_qseq>ATVKSRWSGSHQFEQLSGS</Hsp_qseq>
+      <Hsp_hseq>ALVDXRWAGIHDIEHLANA</Hsp_hseq>
+      <Hsp_midline>A V  RW+G H  E L+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>132163</Statistics_db-num>
+      <Statistics_db-len>35319784</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
