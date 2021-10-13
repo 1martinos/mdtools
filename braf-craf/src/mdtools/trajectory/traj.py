@@ -6,7 +6,6 @@ class Trajectory:
     Currently, if topology is defined it will load just that!
     Try to make it only call the full trajectory when necessary.
     """
-
     def __init__(self, coord_file, topology_file=None):
         self.coord_file = coord_file
         self.n_frames = len(md.open(coord_file))
@@ -34,12 +33,15 @@ class Trajectory:
         return traj
 
     def load(self,frame,atoms=None):
+        """
+        Returns frames as xyz, just seems more natural.
+        """
         coords = self.coord_file
         top = self.top
         if isinstance(frame,int):
             return md.load_frame(coords,frame,top,
-                                 atom_indices=atoms)
-        elif isinstance(frame,list):
+                                 atom_indices=atoms).xyz
+        elif hasattr(frame,"__getitem__"):
             if atom_indices is None:
                 xyz = np.empty((len(frame),*self.top.shape[1:]))
             else:
@@ -58,6 +60,20 @@ class Trajectory:
     def get_calpha_index(self):
         atoms = self.top.atoms
         return [atom.index for atom in atoms if atom.name == "CA"]
+
+    def __getitem__(self,index):
+        """
+        Basic indexing loads frame xyz
+        """
+        if isinstance(index,int) or isinstance(index,list):
+            return self.load(index)
+        else:
+            try:
+                return [self.load(i) for i in index]
+            except Exception:
+                print(f"Not understood index: {type(index)}")
+                raise TypeError
+        
 
 if __name__ == '__main__':
     """

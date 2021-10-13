@@ -5,14 +5,138 @@ import h5py
 import os 
 from time import time as t
 from sklearn.decomposition import PCA
+from sklearn.decomposition import IncrementalPCA as incpca
 from itertools import combinations
 from scipy.special import comb
 from sklearn.preprocessing import normalize
 from scipy.stats import pearsonr as pcc
 from matplotlib import pyplot as plt
+from mdtools.trajectory import Trajectory as Traj
+from numpy.linalg import norm
 """
 Simple methods to take a trajectory object and perform a PCA
+
+10/12/21: For Dan's work let's make a basic PCA class that takes top & dcd{s}
+and does the plots and stuff very simply!
 """
+class myPCA:
+
+    @staticmethod
+    def conc_trajs(trajs,top):
+        test_traj = trajs[0]
+        if isinstance(test_traj,str):
+            trajs = [md.load(t,top) for t in trajs]
+        elif not isinstance(test_traj,md.Trajectory):
+            print(f"Coords type: {type(test_traj)}"
+                  f"Not understood")
+        traj = md.join(trajs)
+        return traj
+
+    @staticmethod
+    def strip_to_atoms(traj,selection=None):
+        top = traj.top
+        if selection is None:
+            atoms = [a.index for a in top.atoms if 
+                        a.name == "CA"]
+        else:
+            atoms = selection
+        return traj.atom_slice(atoms)
+        
+    def __init__(self,
+                 coords,top,out_hdf=None,atoms=None,**kwargs):
+        """
+        Create this class to hold the trajectories in it and perform a PCA.
+        Takes one topology and either a list or single coordinate file/mdtraj
+        object.
+        Currently performs on just the C-α atoms.
+        Feed PCA options in as kwargs.
+        """
+        self.coords = coords
+        self.top = top
+        self.pca = PCA(**kwargs)
+        self.atoms = atoms
+        self.data = None
+        self.n_atoms = None
+        self.n_frames = None
+        self.transformed = None
+        if out_hdf:
+            self.out_path = out_hdf
+        else:
+            self.out_path = "./pca.h5"
+        if isinstance(coords,str):
+            self.n_coords = 1
+            self.traj = md.load(coords,top=top) 
+        elif isinstance(coords,list):
+            self.n_coords = len(trajs)
+            self.traj = conc_trajs(trajs,top)
+        else:
+            print("Feed Me a list of file paths or"
+                  "a single trajectory files")
+            raise TypeError
+        self.preprocess()
+        self._pca()
+        self.save()
+        self.plot_scores()
+        
+    def preprocess(self,atoms=None):
+        """
+        Before performing the PCA they need to be aligned and stripped to
+        just the c-alphas!
+        ( feed the atoms parameters to change the atoms used, should be
+          iterable of atom indices)
+        Currently this requires full RAM usage but possible to do without.
+        """
+        traj = self.traj
+        traj = self.strip_to_atoms(traj,selection=atoms)
+        traj = traj.superpose(traj,0)
+        n_frames,n_atoms,_ = traj._xyz.shape
+        flat_shape = (n_frames,n_atoms*3)
+        self.traj = traj
+        self.data = traj._xyz.reshape(flat_shape)
+        self.n_atoms, self.n_frames = n_atoms, n_frames
+
+    def _pca(self):
+        data = self.data
+        self.transformed = self.pca.fit_transform(data)
+        self.n_components = self.transformed.shape[-1]
+
+    def save(self):
+        """
+        Take a PCA object and save relevant info
+        """
+        f_p = self.out_path
+        pca_items = self.pca.__dict__.items()
+        with h5py.File(f_p,"w") as hdf:
+            for k,v in pca_items:
+                if v is not None:
+                    # We save the components reshaped back
+                    if k == "components_":
+                        v = v.reshape(self.n_components,self.n_atoms,3)
+                    hdf.create_dataset(k,data=v)
+            hdf.create_dataset("data",data=self.data.reshape(-1,self.n_atoms,3))
+            hdf.create_dataset("projections",data=self.transformed)
+
+    def plot_scores(self,n_comps=4,sharex=True,sharey=True):
+        """
+        Plot scores.
+        """
+        colours = ["red","green","blue","yellow"]
+        with h5py.File(self.out_path,"r") as hdf:
+            comps = hdf["components_"]
+            varis = hdf["explained_variance_"]
+            comps = norm(comps,axis=-1)
+            fig,axs = plt.subplots(n_comps,1,figsize=(8,12),
+                                  sharex=sharex,sharey=sharey)
+            for k in range(n_comps):
+                if k > n_comps:
+                    break
+                axs[k].plot(varis[k]*comps[k],marker="o",c=colours[k],
+                           label=f"PCA component {k}")
+            axs[0].set_title("Score plots for PCA")
+            if not os.path.isdir("./plots"):
+                os.makedirs("./plots")
+            plt.savefig("./plots/scores.png")
+        
 def pca(data,**kwargs):
     """
     Perform standard PCA
@@ -179,17 +303,20 @@ if __name__ == '__main__':
     """
     from glob import glob
     from mdtools.trajectory.traj import Trajectory as Traj
-    data = sorted(glob("/mnt/hdd/work/bmd/bigmd/tests/example_data/easy/*/*"))
-    dcd = data[0]
-    pdb = data[1]
-    traj = Traj(dcd,pdb)
-    data = traj.load_all().xyz
-    print("Loaded trajectory of shape:")
-    print(data.shape)
-    print("Performing PCA...")
-    t1 = t()
-    cas = traj.get_calpha_index()
-    pca_obj = iPCA(traj,atom_sel=cas)
-    t2 = t()
-    print(f"PCA took {round(t2-t1,3)} seconds.")
+    pdb = "/mnt/hdd/work/braf-craf/actual_work/"\
+          "code/braf-craf/work/trajectories/braf_mono/MyInIn.pdb"
+    dcd = "/mnt/hdd/work/braf-craf/actual_work/"\
+          "code/braf-craf/work/trajectories/braf_mono/MyInIn.dcd"
+    test = myPCA(dcd,pdb) 
+
+    #traj = Traj(dcd,pdb)
+    #data = traj.load_all().xyz
+    #print("Loaded trajectory of shape:")
+    #print(data.shape)
+    #print("Performing PCA...")
+    #t1 = t()
+    #cas = traj.get_calpha_index()
+    #pca_obj = iPCA(traj,atom_sel=cas)
+    #t2 = t()
+    #print(f"PCA took {round(t2-t1,3)} seconds.")
     
